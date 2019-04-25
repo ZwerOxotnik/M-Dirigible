@@ -1,0 +1,11 @@
+{
+  "name": "M-Dirigible",
+  "version": "0.0.5",
+  "factorio_version": "0.17",
+  "title": "Dirigible",
+  "author": "SPolygon",
+  "homepage": "https://mods.factorio.com/mod/Dirigible",
+  "source": "https://github.com/ZwerOxotnik/M-Dirigible",
+  "dependencies": ["base"],
+  "description": "Blimps, airships, aerostats, whatever you wanna call them... Author: SPolygon. This mod updated by ZwerOxotnik"
+}

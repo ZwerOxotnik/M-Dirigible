@@ -1,0 +1,10 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.0.5
+Date: 2019-04-25
+  Features:
+    - Russian localization
+  Changes:
+    - Updated for Factorio 0.17
+  Notes:
+    - Updated by ZwerOxotnik
+    - Original mod: https://mods.factorio.com/mod/Dirigible
