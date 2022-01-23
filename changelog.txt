@@ -1,4 +1,12 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.0.12
+Date: 2022-01-23
+  Locale:
+    - Added Ukrainian translation (thanks to @Met_en_Bouldry on crowdin)
+    - Translations: https://crowdin.com/project/factorio-mods-localization (thank you for contributions, I really appreciate it)
+  Notes:
+    - Updated by ZwerOxotnik
+---------------------------------------------------------------------------------------------------
 Version: 0.0.11
 Date: 2020-10-25
   Changes:
@@ -8,8 +16,8 @@ Date: 2020-10-25
 ---------------------------------------------------------------------------------------------------
 Version: 0.0.5
 Date: 2019-04-25
-  Features:
-    - Russian localization
+  Locale:
+    - Added Russian localization
   Changes:
     - Updated for Factorio 0.17
   Notes:
