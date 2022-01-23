@@ -1,5 +1,5 @@
 ---------------------------------------------------------------------------------------------------
-Version: 0.0.12
+Version: 0.0.13
 Date: 2022-01-23
   Locale:
     - Added Ukrainian translation (thanks to @Met_en_Bouldry on crowdin)
