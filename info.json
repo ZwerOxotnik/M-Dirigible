@@ -7,5 +7,5 @@
   "homepage": "https://mods.factorio.com/mod/Dirigible",
   "source": "https://github.com/ZwerOxotnik/M-Dirigible",
   "dependencies": ["base"],
-  "description": "Blimps, airships, aerostats, whatever you wanna call them... Author: SPolygon. This mod updated by ZwerOxotnik"
+  "description": "Blimps, airships, aerostats, whatever you wanna call them...\nAuthor: SPolygon. This mod updated by ZwerOxotnik"
 }
