@@ -6,7 +6,11 @@ data:extend({
 		icon_size = 128,
 		effects = {{type = "unlock-recipe", recipe = "dirigible-blimp"}},
 		prerequisites = {"engine"},
-		unit = {count = 50, ingredients = {{"automation-science-pack", 1}, {"logistic-science-pack", 1}}, time = 30},
+		unit = {
+			count = 50,
+			ingredients = {{"automation-science-pack", 1}, {"logistic-science-pack", 1}},
+			time = 30
+		},
 		order = "c-h-c"
 	}, {
 		type = "technology",

@@ -18,8 +18,9 @@ data:extend({
 			{type = "acid", decrease = 1, percent = 20}
 		},
 		collision_box = {{-0.9, -1.3}, {0.9, 1.3}},
-		collision_mask = {},
 		selection_box = {{-0.9, -1.3}, {0.9, 1.3}},
+		energy_source  = {type = "void"}, -- TODO: recheck
+		collision_mask = {layers={}},
 		effectivity = 0.7,
 		braking_power = "450kW",
 		burner = {
@@ -99,9 +100,10 @@ data:extend({
 			{type = "impact", decrease = 10, percent = 60}, {type = "explosion", decrease = 2, percent = 30},
 			{type = "acid", decrease = 1, percent = 20}
 		},
-		collision_box = {{-0.9, -1.3}, {0.9, 1.3}},
-		collision_mask = {},
-		selection_box = {{-0.9, -1.3}, {0.9, 1.3}},
+		collision_box  = {{-0.9, -1.3}, {0.9, 1.3}},
+		selection_box  = {{-0.9, -1.3}, {0.9, 1.3}},
+		energy_source  = {type = "void"}, -- TODO: recheck
+		collision_mask = {layers={}},
 		effectivity = 0.7,
 		braking_power = "450kW",
 		burner = {

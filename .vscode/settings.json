@@ -39,8 +39,8 @@
 		"table": "enable",
 		"math": "enable",
 		"string": "enable",
-		"package": "enable",
-		"debug": "enable",
+		"package": "disable",
+		"debug": "disable",
 		"bit32": "enable",
 		"io": "disable",
 		"jit": "disable",
@@ -72,4 +72,7 @@
 		"undefined-doc-name",
 		"undefined-doc-class"
 	],
+	"triggerTaskOnSave.tasks": {
+		"Luacheck": ["*.lua"]
+	}
 }

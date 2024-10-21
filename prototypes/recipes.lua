@@ -2,40 +2,32 @@ data:extend({
 	{
 		type = "recipe",
 		name = "dirigible-blimp",
-		normal = {
-			enabled = false,
-			energy_required = 10,
-			ingredients = {
-				{"engine-unit", 4}, {"steel-plate", 25}, {"iron-plate", 50}, {"electronic-circuit", 5}, {"plastic-bar", 25}
-			},
-			result = "dirigible-blimp"
+		icon = "__M-Dirigible__/graphics/icon/blimp.png",
+		icon_size = 32,
+		energy_required = 10,
+		ingredients = {
+			{type = "item", name = "electronic-circuit", amount = 5},
+			{type = "item", name = "engine-unit", amount = 4},
+			{type = "item", name = "steel-plate", amount = 25},
+			{type = "item", name = "plastic-bar", amount = 25},
+			{type = "item", name = "iron-plate",  amount = 50},
 		},
-		expensive = {
-			enabled = false,
-			energy_required = 20,
-			ingredients = {
-				{"engine-unit", 10}, {"steel-plate", 50}, {"iron-plate", 75}, {"electronic-circuit", 15}, {"plastic-bar", 50}
-			},
-			result = "dirigible-blimp"
-		}
+		results = {{type = "item", name = "dirigible-blimp", amount = 1}},
+		enabled = false,
 	}, {
 		type = "recipe",
 		name = "dirigible-vacuum",
-		normal = {
-			enabled = false,
-			energy_required = 30,
-			ingredients = {
-				{"electric-engine-unit", 4}, {"steel-plate", 50}, {"iron-plate", 50}, {"processing-unit", 5}, {"plastic-bar", 5}
-			},
-			result = "dirigible-vacuum"
+		icon = "__M-Dirigible__/graphics/icon/vacuum.png",
+		icon_size = 32,
+		energy_required = 30,
+		ingredients = {
+			{type = "item", name = "electric-engine-unit", amount = 4},
+			{type = "item", name = "processing-unit", amount = 5},
+			{type = "item", name = "steel-plate", amount = 50},
+			{type = "item", name = "plastic-bar", amount = 5},
+			{type = "item", name = "iron-plate",  amount = 50},
 		},
-		expensive = {
-			enabled = false,
-			energy_required = 60,
-			ingredients = {
-				{"electric-engine-unit", 10}, {"steel-plate", 100}, {"iron-plate", 75}, {"processing-unit", 15}, {"plastic-bar", 10}
-			},
-			result = "dirigible-vacuum"
-		}
+		results = {{type = "item", name = "dirigible-vacuum", amount = 1}},
+		enabled = false,
 	}
 })
